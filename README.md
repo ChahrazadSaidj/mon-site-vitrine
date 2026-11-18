@@ -56,6 +56,8 @@ Ce site vitrine interactif et moderne a été conçu pour mettre en valeur le pa
 
 - **Page Facebook Officielle** : [facebook.com/share/1GcaoePnyG/](https://www.facebook.com/share/1GcaoePnyG/?mibextid=wwXIfr)
 - **Compte Facebook Personnel** : [facebook.com/share/19emStWNHM/](https://www.facebook.com/share/19emStWNHM/?mibextid=wwXIfr)
+- **Instagram Officiel** : [@saidj.liza](https://www.instagram.com/saidj.liza/) (avec QR Code interactif)
+- **TikTok Officiel** : [@saidjliza](https://www.tiktok.com/@saidjliza) (avec QR Code interactif)
 - **WhatsApp Privé Direct** : Intégré sous forme de bouton interactif sécurisé lié au numéro algérien `+213 540 66 33 40`.
 
 ---

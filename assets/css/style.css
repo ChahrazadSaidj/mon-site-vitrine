@@ -1708,9 +1708,113 @@ body {
   background: #1877f2;
 }
 
+.btn-share.instagram {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  box-shadow: 0 4px 15px rgba(220, 39, 67, 0.35);
+}
+
+.btn-share.tiktok {
+  background: #010101;
+  border: 1px solid rgba(254, 44, 85, 0.5);
+  box-shadow: 0 4px 15px rgba(37, 244, 238, 0.25);
+  position: relative;
+}
+
+.btn-share.tiktok:hover {
+  border-color: #25F4EE;
+  box-shadow: 0 6px 20px rgba(254, 44, 85, 0.4);
+}
+
 .btn-share.copy {
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid var(--border-glass);
+}
+
+/* QR Code Cards Grid */
+.qr-codes-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 780px;
+  margin: 2.5rem auto 1rem;
+}
+
+.qr-social-card {
+  background: linear-gradient(145deg, rgba(16, 28, 44, 0.85), rgba(8, 16, 26, 0.95));
+  border: 1px solid var(--border-glass);
+  border-radius: 24px;
+  padding: 1.75rem;
+  text-align: center;
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+  position: relative;
+  overflow: hidden;
+}
+
+.qr-social-card.instagram-card {
+  border-color: rgba(220, 39, 67, 0.3);
+}
+
+.qr-social-card.instagram-card:hover {
+  border-color: #e1306c;
+  box-shadow: 0 20px 45px rgba(225, 48, 108, 0.35);
+  transform: translateY(-6px);
+}
+
+.qr-social-card.tiktok-card {
+  border-color: rgba(37, 244, 238, 0.3);
+}
+
+.qr-social-card.tiktok-card:hover {
+  border-color: #25F4EE;
+  box-shadow: 0 20px 45px rgba(254, 44, 85, 0.35);
+  transform: translateY(-6px);
+}
+
+.qr-image-wrapper {
+  background: #ffffff;
+  padding: 1rem;
+  border-radius: 18px;
+  display: inline-block;
+  margin-bottom: 1.25rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  max-width: 200px;
+  width: 100%;
+}
+
+.qr-image-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.qr-card-title {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 0.25rem;
+}
+
+.qr-card-handle {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.qr-card-handle.insta {
+  color: #f09433;
+}
+
+.qr-card-handle.tiktok {
+  color: #25F4EE;
+}
+
+.qr-scan-hint {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-top: 0.75rem;
 }
 
 .btn-share:hover {
